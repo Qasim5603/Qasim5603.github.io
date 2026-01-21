@@ -1,13 +1,11 @@
-// gitprofile.config.ts - FULLY FIXED FOR QASIM5603.GITHUB.IO
+// gitprofile.config.ts - UPDATED WITH INTERNSHIP EXPERIENCE
+// Perfect for https://qasim5603.github.io 🚀
 
 const CONFIG = {
   github: {
-    username: 'Qasim5603', // ← YOUR GitHub username
+    username: 'Qasim5603', 
   },
-  /**
-   * FIXED: Since repo is Qasim5603.github.io, base must be '/'
-   */
-  base: '/', // ← CRITICAL: Changed from '/gitprofile/'
+  base: '/', 
   
   projects: {
     github: {
@@ -44,7 +42,7 @@ const CONFIG = {
   
   seo: { 
     title: 'Qasim Ali - Cloud/DevOps & Web Developer Portfolio',
-    description: 'Recent CS graduate skilled in Docker, Kubernetes, React, Node.js, AWS Cloud.',
+    description: 'CS graduate with TechNest Solutions internship. Skilled in React, Node.js, Docker, AWS Cloud. MicroVision ML project.',
     imageURL: '' 
   },
   
@@ -57,31 +55,65 @@ const CONFIG = {
   },
   
   resume: {
-    fileUrl: 'https://github.com/Qasim5603/Qasim5603.github.io/raw/main/resume.pdf', // Upload your resume here
+    fileUrl: 'https://github.com/Qasim5603/Qasim5603.github.io/raw/main/resume.pdf', 
   },
   
   skills: [
     'Docker', 'Kubernetes', 'React', 'Node.js', 'JavaScript',
-    'Linux', 'AWS Cloud', 'GitHub Actions', 'Python', 'CI/CD'
+    'Linux', 'AWS Cloud', 'GitHub Actions', 'Python', 'MongoDB', 'SQL'
   ],
   
+  // ✅ UPDATED WITH TECHNET INTERNSHIP
   experiences: [
+    {
+      company: 'TechNest Solutions',
+      position: 'Web Development Intern',
+      from: 'Jun 2024',
+      to: 'Aug 2024',
+      companyLink: 'https://github.com/Qasim5603',
+      isCurrentCompany: false
+    },
     {
       company: 'Personal Projects',
       position: 'Full-Stack Developer & DevOps',
       from: '2024',
       to: 'Present',
       companyLink: 'https://github.com/Qasim5603',
+      isCurrentCompany: true
     },
   ],
   
   certifications: [
     {
+      name: 'Getting Started with Git and GitHub',
+      body: 'Coursera',
+      year: '2025',
+      link: 'https://github.com/Qasim5603/Certificates/blob/main/devops/Coursera%20RBDDX1WFW1RN.pdf',
+    },
+    {
+      name: 'Docker for Absolute Beginners', 
+      body: 'Coursera',
+      year: '2025',
+      link: 'https://github.com/Qasim5603/Certificates/blob/main/devops/Coursera%20HH4PAFA78HPY.pdf',
+    },
+    {
+      name: 'Introduction to Relational Database and SQL',
+      body: 'Coursera', 
+      year: '2025',
+      link: 'https://github.com/Qasim5603/Certificates/blob/main/databases/Coursera%20G8X8BYN772UU.pdf',
+    },
+    {
+      name: 'CRUD Operations using MongoDB NoSQL',
+      body: 'Coursera',
+      year: '2025', 
+      link: 'https://github.com/Qasim5603/Certificates/blob/main/databases/Coursera%20N5SHY848YVZV.pdf',
+    },
+    {
       name: 'AWS Educate Cloud 101',
       body: 'AWS Cloud Practitioner Foundations',
       year: 'Jan 2026',
-      link: 'https://github.com/Qasim5603',
-    },
+      link: 'https://github.com/Qasim5603/Certificates',
+    }
   ],
   
   educations: [
@@ -93,7 +125,7 @@ const CONFIG = {
     },
   ],
   
-  publications: [], // Empty = hidden
+  publications: [],
   
   blog: {
     source: 'dev',
