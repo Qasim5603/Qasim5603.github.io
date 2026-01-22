@@ -1,5 +1,5 @@
-// gitprofile.config.ts - YOUR 4 BEST PROJECTS FEATURED
-// Perfect showcase for Web Dev/DevOps jobs 🚀
+// gitprofile.config.ts - FIXED: FULL CERTS + NO PROFILE IMAGE
+// Perfect for https://qasim5603.github.io 🚀
 
 const CONFIG = {
   github: {
@@ -9,7 +9,7 @@ const CONFIG = {
   
   projects: {
     github: {
-      display: false,  // ← DISABLE automatic GitHub repos
+      display: false,
       header: 'Featured Projects',
       mode: 'automatic',
       automatic: {
@@ -21,7 +21,7 @@ const CONFIG = {
         },
       },
     },
-    external: {  // ← YOUR HAND-PICKED PROJECTS
+    external: {
       header: 'Featured Projects',
       projects: [
         {
@@ -52,7 +52,6 @@ const CONFIG = {
     },
   },
   
-  // ... rest of your config stays SAME (internship, certs, skills, etc)
   seo: { 
     title: 'Qasim Ali - Full-Stack Developer | MicroVision AI & DevOps Tools',
     description: 'TechNest intern skilled in React, Docker, Node.js. Creator of MicroVision AI and Auto Dockerfile Generator.',
@@ -76,7 +75,7 @@ const CONFIG = {
     'Python', 'CNNs/ML', 'AWS Cloud', 'GitHub Actions', 'MongoDB', 'SQL'
   ],
   
-  experiences: [  // ← Your TechNest internship (unchanged)
+  experiences: [
     {
       company: 'TechNest Solutions',
       position: 'Web Development Intern',
@@ -93,9 +92,38 @@ const CONFIG = {
     },
   ],
   
-  // ... your 5 certs stay the same
+  // ✅ ALL 5 CERTIFICATES ADDED
   certifications: [
-    // Git, Docker, SQL, MongoDB, AWS (unchanged)
+    {
+      name: 'Getting Started with Git and GitHub',
+      body: 'Coursera',
+      year: '2025',
+      link: 'https://github.com/Qasim5603/Certificates/blob/main/devops/Coursera%20RBDDX1WFW1RN.pdf',
+    },
+    {
+      name: 'Docker for Absolute Beginners',
+      body: 'Coursera',
+      year: '2025',
+      link: 'https://github.com/Qasim5603/Certificates/blob/main/devops/Coursera%20HH4PAFA78HPY.pdf',
+    },
+    {
+      name: 'Introduction to Relational Database and SQL',
+      body: 'Coursera',
+      year: '2025',
+      link: 'https://github.com/Qasim5603/Certificates/blob/main/databases/Coursera%20G8X8BYN772UU.pdf',
+    },
+    {
+      name: 'CRUD Operations using MongoDB NoSQL',
+      body: 'Coursera',
+      year: '2025',
+      link: 'https://github.com/Qasim5603/Certificates/blob/main/databases/Coursera%20N5SHY848YVZV.pdf',
+    },
+    {
+      name: 'AWS Educate Cloud 101',
+      body: 'AWS Cloud Practitioner Foundations',
+      year: 'Jan 2026',
+      link: 'https://github.com/Qasim5603/Certificates',
+    }
   ],
   
   educations: [
@@ -107,18 +135,19 @@ const CONFIG = {
     },
   ],
   
-  // ... rest unchanged
   publications: [],
   blog: { source: 'dev', username: '', limit: 0 },
   googleAnalytics: { id: '' },
   hotjar: { id: '', snippetVersion: 6 },
+  
   themeConfig: {
     defaultTheme: 'light',
     disableSwitch: false,
     respectPrefersColorScheme: false,
-    displayAvatarRing: true,
+    displayAvatarRing: false,  // ✅ NO PROFILE IMAGE
     themes: ['light', 'dark', 'emerald', 'corporate'],
   },
+  
   footer: `Made with <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a> and ❤️`,
   enablePWA: true,
 };
